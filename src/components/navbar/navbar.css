@@ -1,0 +1,52 @@
+.mi__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* controls padding for TC/AYG logo in top left */
+    padding: 0.7rem 0.7rem;
+}
+
+.mi__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mi__navbar-links_logo {
+    margin-right: 2rem;
+}
+
+.mi__navbar-links_logo img {
+    width: 169px;
+    height: 34px;
+}
+
+.mi__navbar-links_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.mi__navbar-login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1rem
+}
+
+.mi__navbar-links_container p,
+.mi__navbar-login p,
+.mi__navbar-menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 25px;
+    margin: 0 1rem;
+    cursor: pointer;
+    
+
+}
