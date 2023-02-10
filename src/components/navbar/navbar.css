@@ -10,12 +10,12 @@
 .mi__navbar-links {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
 }
 
 .mi__navbar-links_logo {
     margin-right: 2rem;
+    justify-content: flex-start;
 }
 
 .mi__navbar-links_logo img {
@@ -27,7 +27,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
+    padding-right: 2rem;
 }
 
 .mi__navbar-login {
@@ -47,6 +47,4 @@
     line-height: 25px;
     margin: 0 1rem;
     cursor: pointer;
-    
-
 }
